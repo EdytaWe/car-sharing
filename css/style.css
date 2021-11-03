@@ -84,3 +84,47 @@ header:before {
     background: #FFFFFF33 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+.banner {
+    margin-top: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+.title {
+    font-family: var(--first-font-family);
+    font-weight: 900;
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 6px #00000040;
+}
+.title__description {
+    font-size: 16px;
+    font-family: var(--first-font-family);
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.banner__button {
+    padding: 20px 50px;
+    font-family: var(--first-font-family);
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+.banner__left__button {
+    background-color: var(--accent-color);
+    color: white;
+    box-shadow: 0px 3px 6px #FF00004D;
+    margin-right: 10px;
+}
+.banner__right__button {
+    background-color: white;
+    color: var(--accent-color);
+    margin-left: 10px;
+}
