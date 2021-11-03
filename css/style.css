@@ -168,24 +168,37 @@ header:before {
     color: black;
 }
 
+.boxes {
+    display: flex;
+}
 .box {
 
 }
+.blog__box {
+    max-width: 352px;
+    margin: 20px 8px 0 8px;
+}
 .blog__picture {
+    width: 352px;
+    background-size: cover;
+    background-position: center;
 }
 .box__title {
     font-family: var(--first-font-family);
     font-size: 19px;
     text-transform: uppercase;
-    padding-top: 15px;
+    margin-top: 20px;
 }
 .blog__title {
     color: #6A6A6A;
 }
 .box__content {
+    display: inline-block;
+    max-width: 260px;
     font-family: var(--second-font-family);
     font-weight: normal;
     font-size: 14px;
+    margin-top: 20px;
 }
 .blog__content {
     color: #6A6A6A;
