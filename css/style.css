@@ -8,7 +8,6 @@
     --accent-color: #FF0000;
 }
 .container {
-    display: flex;
     width: 1088px;
     margin: 0 auto;
 
@@ -19,6 +18,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: top;
+    display: flex;
 }
 header:before {
     content: "";
@@ -74,11 +74,12 @@ header:before {
     text-transform: uppercase;
     padding-right: 40px;
     padding-left: 40px;
-    position: relative;
+    height: 88px;
+    padding-top: 36px;
 }
 .content__main__menu:hover {
     height: 88px;
-    background: #FFFFFF33 0% 0% no-repeat padding-box;
+    background: #FFFFFF33 0 0 no-repeat padding-box;
     opacity: 1;
 }
 
@@ -219,23 +220,69 @@ header:before {
 .service {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
+    padding: 0 154px 0 154px;
+    background-color: #28272C;
+}
+.title__service {
+    color: white;
 }
 .service__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 230px;
 }
 .service__picture {
     flex-basis: 170px;
     height: 170px;
 }
 .service__title {
-
+    color: white;
+    font-size: 18px;
 }
 .service__content {
-    flex-basis: 230px;
     text-align: center;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contact__picture {
+    width: 444px;
+    margin-right: 16px;
+}
+form {
+    width: 444px;
+}
+.name, .mail, .massage {
+    display: block;
+    padding: 8px 0 8px 12px;
+    box-shadow: 0 1px 6px #FF00004D;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 444px;
+    font-family: var(--first-font-family);
+    font-size: 16px;
+    color: #B2B2B2;
+}
+.agree {
+    font-family: var(--second-font-family);
+    font-size: 10px;
+    font-weight: lighter;
+    color: #B2B2B2;
+    display: block;
 }
