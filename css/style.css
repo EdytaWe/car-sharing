@@ -319,3 +319,69 @@ form {
     font-weight: bold;
     margin-top: 20px;
 }
+
+footer {
+    background-color: #28272C;
+}
+.footer__container {
+    padding-bottom: 30px;
+}
+.footer__logo {
+    font-size: 25px;
+    font-family: var(--first-font-family);
+    font-weight: bold;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+.footer__logo span {
+    color: white;
+    margin-right: 15px;
+    padding-left: 5px;
+}
+.footer__logo:before {
+    content: url("../images/Logo Footer.svg");
+    height: 25px;
+    padding-right: 5px;
+}
+
+.footer__menu {
+    display: flex;
+    height: 97px;
+    margin-top: 25px;
+}
+.footer__first__column,
+.footer__second__column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.footer__link {
+    font-family: var(--first-font-family);
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 0 5px 0;
+}
+.footer__link:hover {
+    color: var(--accent-color);
+}
+.footer__third__column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 10;
+}
+.author {
+    font-family: var(--first-font-family);
+    font-size: 12px;
+    color: #D1D1D1;
+}
+
+
