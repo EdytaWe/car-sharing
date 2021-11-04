@@ -280,9 +280,28 @@ form {
     color: #B2B2B2;
 }
 .agree {
+    display: flex;
+    cursor: pointer;
     font-family: var(--second-font-family);
     font-size: 10px;
     font-weight: lighter;
     color: #B2B2B2;
-    display: block;
+
 }
+.checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.agree span {
+    height: 22px;
+    flex-basis: 22px;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
